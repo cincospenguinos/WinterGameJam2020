@@ -8,6 +8,13 @@ const SPRITES = {
 			frameHeight: 800,
 		},
 	},
+	// player: {
+	// 	location: `${spriteDir}/image.png`,
+	// 	config: {
+	// 		frameWidth: 24,
+	// 		frameHeight: 32,
+	// 	}
+	// },
 };
 
 export default SPRITES;
