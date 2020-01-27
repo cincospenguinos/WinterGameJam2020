@@ -2,10 +2,14 @@ import Phaser from 'phaser';
 
 const gameConfig = {
 	type: Phaser.AUTO,
-  width: 800,
-  height: 600,
+  width: 1600,
+  height: 800,
   parent: 'game-container',
-  scene: [],
+  scene: [{
+  	preload: () => {},
+  	create: () => {},
+  	update: () => {},
+  }],
 };
 
 export const game = new Phaser.Game(gameConfig);
