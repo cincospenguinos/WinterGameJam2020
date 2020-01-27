@@ -7,20 +7,16 @@ Z = sum(superego values)
 ### Strength (Body) (Justice)
 
 * Pleasure
-* Emotions
-	* Happiness
-	* Sadness
-	* Anger
-	* Tender
-	* Excited
-	* Scared
+* Tender
+* Scared
+* Happiness
 * Pain
 
 ### Beauty (Mind) (Beauty)
 
 * Appearance
 * Order/Structure
-* 
+* Preside
 
 ### Wisdom (Spirit) (Mercy)
 
