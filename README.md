@@ -7,10 +7,8 @@ Z = sum(superego values)
 ### Strength (Body) (Justice)
 
 * Bodily Pleasure
-* Tender
-* Scared
-* Happiness
-* Pain
+* Intimacy
+* Emotional acceptance
 
 ### Beauty (Mind) (Beauty)
 
