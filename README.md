@@ -6,7 +6,7 @@ Z = sum(superego values)
 
 ### Strength (Body) (Justice)
 
-* Pleasure
+* Bodily Pleasure
 * Tender
 * Scared
 * Happiness

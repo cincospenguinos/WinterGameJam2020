@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import CONSTANTS from './constants/index.js';
 
 const gameConfig = {
 	type: Phaser.AUTO,
@@ -11,5 +12,7 @@ const gameConfig = {
   	update: () => {},
   }],
 };
+
+console.log(CONSTANTS);
 
 export const game = new Phaser.Game(gameConfig);
