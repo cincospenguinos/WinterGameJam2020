@@ -32,4 +32,22 @@ describe('src/state/actions/characterActions', () => {
 			});
 		});
 	});
+
+	describe('#submitConversation', () => {
+		it('has the correct shape', () => {
+			const conversation = {
+				bodilyPleasure: 1,
+				justice: -1,
+				preside: 0.2,
+			};
+			const action = actions.submitConversation(conversation);
+
+			expect(action.type).toEqual('CONVERSATION_COMPLETE');
+			expect(action.payload).toEqual({
+				bodilyPleasure: 1,
+				justice: -1,
+				preside: 0.2,
+			});
+		});
+	});
 });

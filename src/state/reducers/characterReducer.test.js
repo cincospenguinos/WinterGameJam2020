@@ -14,4 +14,18 @@ describe('src/state/reducers/characterReducer', () => {
 
 		expect(state[character.name]).toBeTruthy();
 	});
+
+	describe('when a conversation happens', () => {
+		it('updates a single character', () => {
+			const character = fixtures.generateCharacter('Joe', {
+				bodilyPleasure: 1.2,
+				justice: 0.5,
+				appearance: -1.2,
+			});
+			let state = reducer(actions.createCharacter(character));
+			state = reducer(actions.submitConversation({ justice: 2 }), state);
+
+			expect(state['Joe'].overallRelationship).toEqual(1);
+		});
+	});
 });

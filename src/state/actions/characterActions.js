@@ -16,3 +16,10 @@ export const createCharacter = (characterInfo) => {
 		},
 	};
 }
+
+export const submitConversation = (conversationData) => {
+	return {
+		type: 'CONVERSATION_COMPLETE',
+		payload: conversationData,
+	};
+}
