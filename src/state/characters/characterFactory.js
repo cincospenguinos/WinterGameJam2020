@@ -1,20 +1,11 @@
-const values = {
-	bodilyPleasure: 0,
-	intimacy: 0,
-	emotionalAcceptance: 0,
-	appearance: 0,
-	structure: 0,
-	preside: 0,
-	justice: 0,
-	kindness: 0,
-	charity: 0,
-};
+import CONST from '../../constants/index.js';
 
 const defaultInfo = () => {
 	return { overallRelationship: 0 };
 };
 
 export default class CharacterFactory {
+	static DEFAULT_COEFFICIENT = 0;
 	static CHARACTER_INFO = defaultInfo();
 
 	static reset() {
@@ -43,10 +34,10 @@ export default class CharacterFactory {
 	static build() {
 		const info = { ...CharacterFactory.CHARACTER_INFO };
 
-		Object.keys(values).forEach((value) => {
+		CONST.characterValues.forEach((value) => {
 			if (!info[value] || !info[value].coefficient) {
 				info[value] = {
-					coefficient: values[value],
+					coefficient: CharacterFactory.DEFAULT_COEFFICIENT,
 				};
 			};
 		});

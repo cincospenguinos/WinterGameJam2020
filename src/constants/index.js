@@ -15,7 +15,20 @@ const keys = {
 	...extractKeysFrom(sprites),
 };
 
+const characterValues = [
+	'appearance',
+	'bodilyPleasure',
+	'charity',
+	'emotionalAcceptance',
+	'intimacy',
+	'justice',
+	'kindness',
+	'preside',
+	'structure',
+];
+
 const CONSTANTS = {
+	characterValues,
 	keys,
 	sprites: helpers.appendKeysTo(sprites),
 };
