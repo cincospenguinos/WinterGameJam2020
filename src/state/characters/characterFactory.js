@@ -26,6 +26,13 @@ export default class CharacterFactory {
 		return this;
 	}
 
+	static massAssignCoefficients(coefficients) {
+		Object.keys(coefficients)
+			.forEach((value) => this.setCoefficient(value, coefficients[value]));
+
+		return this;
+	}
+
 	static setOverallRelationship(value) {
 		CharacterFactory.CHARACTER_INFO.overallRelationship = value;
 		return this;

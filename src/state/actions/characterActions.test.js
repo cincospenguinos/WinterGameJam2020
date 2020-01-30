@@ -1,4 +1,5 @@
 import CharacterFactory from '../characters/characterFactory.js';
+import * as fixtures from '../fixtures/fixtures.js';
 import * as actions from './characterActions.js';
 
 describe('src/state/actions/characterActions', () => {
@@ -8,11 +9,11 @@ describe('src/state/actions/characterActions', () => {
 
 	describe('#createCharacter', () => {
 		it('has the correct shape', () => {
-			const character = CharacterFactory.setName('Joe')
-				.setCoefficient('bodilyPleasure', 1.2)
-				.setCoefficient('justice', 0.5)
-				.setCoefficient('appearance', -1.2)
-				.build();
+			const character = fixtures.generateCharacter('Joe', {
+				bodilyPleasure: 1.2,
+				justice: 0.5,
+				appearance: -1.2,
+			});
 			const shape = actions.createCharacter(character);
 
 			expect(shape.type).toEqual('CREATE_CHARACTER');
