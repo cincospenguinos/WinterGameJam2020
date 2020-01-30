@@ -1,3 +1,4 @@
+import CONST from '../../constants/index.js';
 import CharacterFactory from './characterFactory.js';
 
 describe('src/state/characters/characterFactory', () => {
@@ -16,11 +17,8 @@ describe('src/state/characters/characterFactory', () => {
 	});
 
 	it('defaults all coefficients to 0', () => {
-		const values = ['bodilyPleasure','intimacy','emotionalAcceptance',
-			'appearance','structure','preside','justice','kindness','charity'];
 		const character = CharacterFactory.build();
-
-		values.forEach((value) => expect(character[value].coefficient).toEqual(0));
+		CONST.characterValues.forEach((value) => expect(character[value].coefficient).toEqual(0));
 	});
 
 	it('sets an overall relationship score', () => {
