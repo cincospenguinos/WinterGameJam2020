@@ -23,33 +23,41 @@ Z = sum(superego values)
 * Charity
 
 Sex Driver (Id) =>
-	* Companionship/connection (super ego)
-	* Sexual pleasure
-	* Control
-	* Intimacy
-	* Emotional connectedness
+	* +Bodily Pleasure
+	* ++Intimacy
+	* +Preside
 
 Front Facing Cellphone Camera
-	* Idolatry/appearance
-	* Positive in the face of virtually everything--optimistic (super ego)
+	* ++Appearance
+	* +Kindness
+	* -emotionalAcceptance
 
 Father Mater (Super Ego)
-	* Caring (super ego)
-	* Structure/Order (super ego)
-	* Piety (super ego)
-	* Discretion/Secrecy (Id)
+	* ++Charity
+	* +Kindness
+	* +Preside
+	* -bodilyPleasure
+
+Duke Flauros (Id) =>
+	* +Justice
+	* -Kindness
+	* -Charity
+	* ++Emotional Acceptance
 
 Suppressor Sam (Ego)
 	* Discretion/secrecy of the self (Id)
 	* Avoidance (Ego)
 
-Duke Flauros (Id) =>
-	* Destructiveness
-	* Domination
-	* Cruelty to others
-	* Cruelty to self
-	* Justice
-
 X => a1x1 + a2x2 + ...
 Y => a1x1 + a2x2 + ...
 Z => c1x1 + c2x2 + ...
+
+
+## Ideas
+
+* What if you played minigames during the day that allowed you to improve various stats that prevented decreases in various virtues?
+	* Increasing your own understanding of a value heightens the connection you build with your inner self
+	* Penalties for aligning with Strength over Wisdom for Wisdom-focused characters are decreased with strong Wisdom
+	* These mini-games can be self-management tasks--shower, shave, brush teeth
+	* You have limited energy, preventing you from being able to tackle any of those tasks
+	* You increase your available daily energy by getting a better relationship with your psyche
