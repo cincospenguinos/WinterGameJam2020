@@ -11,8 +11,15 @@ const extractKeysFrom = (obj) => {
 	return keys;
 };
 
+const scenes = {
+	menuScene: {},
+	playScene: {},
+	endScene: {},
+};
+
 const keys = {
 	...extractKeysFrom(sprites),
+	...extractKeysFrom(scenes),
 };
 
 const characterValues = [
@@ -30,6 +37,7 @@ const characterValues = [
 const CONSTANTS = {
 	characterValues,
 	keys,
+	scenes,
 	sprites: helpers.appendKeysTo(sprites),
 };
 
